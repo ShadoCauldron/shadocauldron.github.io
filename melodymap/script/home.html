@@ -1,0 +1,101 @@
+<!DOCTYPE HTML><html lang="tr">
+    <head>
+      <title>MelodyMap Anasayfa</title><meta charset="UTF-8"><link href="Main.css" rel="stylesheet"/><link rel="icon" href="https://i.imgyukle.com/2019/12/28/VyYbWN.png"><script src="jquery-1.10.2.min.js"></script>
+      <style>
+    body {
+      font-family: Arial;
+      margin: 0;
+    }
+
+    p {
+      font-family: Arial;
+      margin: 0;
+    }
+
+    .header {
+      padding: 60px;
+      text-align: center;
+      background: #19AFBD;
+      color: white;
+      font-size: 60px;
+    }
+
+    .content {padding:20px;}
+      </style>
+    </head>
+    <body>
+    <div class="header">
+      <p>MelodyMap Anasayfa</p>
+    </div>
+    <div id="bg">
+      <div id="blackLayer"></div>
+      <img src="sci.png"/>
+    </div>
+    <div id="main">
+      <div id="image">
+      <img src="Background.jpg"/>
+    </div>
+    <div id="player">
+      <div id="songTitle">Error</div>
+      <div id="buttons">
+      <button id="pre" onclick="pre()"><img src="Pre.png" height="90%" width="90%"/></button>
+      <button id="play" onclick="playOrPauseSong()"><img src="Pause.png"/></button>
+      <button id="next" onclick="next()"><img src="Next.png" height="90%" width="90%"/></button>
+    </div>
+    <div id="seek-bar">
+      <div id="fill"></div>
+      <div id="handle"></div>
+    </div>
+    </div>
+    </div>
+  </body>
+  <script type="text/javascript">
+    var songs = ["Carry Master - Genius","Carry Master - Sene","Carry Master - Afrolord"];
+    var poster = ["sci.jpg","sci.jpg","sci.jpg"];
+    var songTitle = document.getElementById("songTitle");
+    var fillBar = document.getElementById("fill");
+    var song = new Audio();
+    var currentSong = 0;
+    window.onload = playSong;
+    function playSong() {
+      song.src = songs[currentSong];
+      songTitle.textContent = songs[currentSong];
+      song.play();
+    }
+        function playOrPauseSong() {
+            if(song.paused){
+                song.play();
+                $("#play img").attr("src","Pause.png");
+            }
+            else{
+                song.pause();
+                $("#play img").attr("src","Play.png");
+            }
+        }
+        song.addEventListener('timeupdate',function(){
+            var position = song.currentTime / song.duration;
+            fillBar.style.width = position * 100 +'%';
+        });
+        function next() {
+            currentSong++;
+            if (currentSong > 2) {
+                currentSong = 0;
+            }
+            playSong();
+            $("#play img").attr("src","Pause.png");
+            $("#image img").attr("src",poster[currentSong]);
+            $("#bg img").attr("src",poster[currentSong]);
+        }
+        function pre() {
+
+            currentSong--;
+            if (currentSong < 0) {
+                currentSong = 2;
+            }
+            playSong();
+            $("#play img").attr("src","Pause.png");
+            $("#image img").attr("src",poster[currentSong]);
+            $("#bg img").attr("src",poster[currentSong]);
+        }
+  </script>
+</html>

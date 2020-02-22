@@ -14,6 +14,23 @@ p {
   margin: 0;
 }
 
+a:link {
+  color: #5EBBBD;
+}
+
+/* visited link */
+a:visited {
+  color: #28999C;
+}
+
+a:hover {
+  color: #529FA1;
+}
+
+a:active {
+  color: #65C7C9;
+}
+
 .header {
   padding: 60px;
   text-align: center;

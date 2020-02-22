@@ -1,0 +1,71 @@
+*{margin:0px; padding:0px;}
+#main{margin:24px auto; }
+
+body {
+  font-family: Arial;
+  background-color: #292929;
+  margin: 0;
+}
+
+p {
+  font-family: Arial;
+  margin: 0;
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #19AFBD;
+  color: white;
+  font-size: 60px;
+}
+
+.button {
+  background-color: #19AFBD;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Arial;
+  margin: 3px 2px;
+  cursor: pointer;
+}
+
+input[type=text], select {
+  background-color: #343434;
+  font-family: Arial;
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1.5px solid #252525;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=password], select {
+  background-color: #343434;
+  font-family: Arial;
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1.5px solid #252525;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+::-moz-selection {
+  color: white;
+  background: #36CFAB;
+}
+
+::selection {
+  color: white;
+  background: #36CFAB;
+}
+
+.content {padding:20px;}

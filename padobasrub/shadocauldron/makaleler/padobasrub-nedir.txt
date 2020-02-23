@@ -1,0 +1,11 @@
+Makale: PADOBASRUB nedir?
+
+Yeni proje: "PADOBASRUB"
+Nedir?
+PADOBASRUB, gizlilik ve güvenlik amacıyla geliştirilmesi planlanan tarayıcı programıdır.
+Nasıl çalışır?
+Adres kutusuna girilen yazı, ShadoCauldron web sitesinin içinde "padobasrub" adında bir klasörün içindeki .txt dosyalarında aratılır. Bulunursa, bu dosya indirilir ve içindekiler ekranda yazar.
+Ne işe yarar?
+Güvenlik ve gizliliği sağlar.
+Güvenli tarafı: Sayfalar metin belgesi olduğundan zararlı yazılım içermemesi.
+Gizli tarafı: Tarayıcı, dosyaları bilgisayara indirdiği için kimse hangi siteye girdiğinizi bilemez.

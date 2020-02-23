@@ -2,5 +2,5 @@ ShadoCauldron Anasayfa
 
 Hoşgeldiniz! İşte başlıca sayfalarımız:
 
-• PADOBASRUB nedir? # shadocauldron/makaleler/padobasrub-nedir.txt
+• PADOBASRUB nedir? >> eu/shadocauldron/makaleler/padobasrub-nedir.txt
 

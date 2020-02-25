@@ -40,15 +40,14 @@ a:active {
 }
 
 .footer {
-   font-family: Arial;
-   font-size: 16px;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   position: fixed;
-   background-color: #212121;
-   color: lightgray;
-   text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: lightgray;
+  text-align: center;
+  font-size: 16px;
 }
 
 .button {

@@ -40,9 +40,8 @@ a:active {
 }
 
 .footer {
-  position: fixed;
   left: 0;
-  bottom: 0;
+  bottom: 100;
   width: 100%;
   background-color: red;
   color: lightgray;

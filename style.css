@@ -1,15 +1,14 @@
-/*ShadoCauldron websitesi CSS kuralları*/
 *{margin:0px; padding:0px;}
 #main{margin:24px auto; }
 
 body {
   font-family: Arial;
-  background-color: DimGray;
+  background-color: #292929;
   margin: 0;
 }
 
 p {
-  color: LightGray;
+  color: white;
   font-size: 21px
   font-family: Arial;
   margin: 0;
@@ -34,7 +33,7 @@ a:active {
 .header {
   padding: 60px;
   text-align: center;
-  background: rgb(81, 81, 81);
+  background: #19AFBD;
   color: white;
   font-size: 60px;
 }
@@ -46,15 +45,15 @@ a:active {
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: rgb(81, 81, 81);
-   color: LightGray;
+   background-color: #212121;
+   color: lightgray;
    text-align: center;
 }
 
 .button {
   background-color: #19AFBD;
   border: none;
-  color: LightGray;
+  color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -90,12 +89,12 @@ input[type=password], select {
 }
 
 ::-moz-selection {
-  color: LightGray;
+  color: white;
   background: #36CFAB;
 }
 
 ::selection {
-  color: LightGray;
+  color: white;
   background: #36CFAB;
 }
 

@@ -5,11 +5,12 @@
 body {
   font-family: Arial;
   background-color: #292929;
+  color: lightGray;
   margin: 0;
 }
 
 p {
-  color: white;
+  color: LightGray;
   font-size: 21px
   font-family: Arial;
   margin: 0;
@@ -43,7 +44,7 @@ a:active {
   left: 0;
   bottom: 100;
   width: 100%;
-  background-color: red;
+  background-color: teal;
   color: lightgray;
   text-align: center;
   font-size: 16px;

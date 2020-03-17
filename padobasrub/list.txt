@@ -1,6 +1,8 @@
 Site listesi
 (Site List)
 
+NOT: Anasayfalar home.txt'dir.
+
 afr/
 shadocauldron
 

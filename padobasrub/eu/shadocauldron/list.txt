@@ -1,0 +1,11 @@
+EU bölgesi site listesi
+
+shadocauldron/
+ makaleler/
+  padobasrub-nedir.txt
+ hello.txt
+ home.txt
+ list.txt
+ 
+cizimler/
+ kopek.txt

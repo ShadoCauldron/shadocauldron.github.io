@@ -1,3 +1,0 @@
-!! Türkçe: "Hello-World!" yazdırmak için;
-!! İngilizce: For printing "Hello-World!";
-print: Hello-World!

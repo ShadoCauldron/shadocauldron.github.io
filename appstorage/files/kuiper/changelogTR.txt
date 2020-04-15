@@ -1,0 +1,17 @@
+**********
+Kuiper Studio 1.9:
+  Yenilikler:
+  • Sürüm değişiklikleri notu özelliği eklendi
+  • Tema özelliği eklendi
+  • Dil özelliği eklendi
+  • Ayarlar özelliği eklendi
+  Temalar:
+  • Koyu Gri (Varsayılan)
+  • Siyah-Mavi
+  • Beyaz-Mavi
+  • Sarı
+  Diller:
+  • Türkçe
+  • İngilizce
+  • İspanyolca
+**********

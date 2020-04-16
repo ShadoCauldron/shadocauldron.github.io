@@ -5,6 +5,8 @@ Kuiper Studio 1.9:
   • Tema özelliği eklendi
   • Dil özelliği eklendi
   • Ayarlar özelliği eklendi
+  Tamamlanmış eksiklikler:
+  • Kod Gezgini'ndeki kod ekleme kısmında dosya oluşturma tamamlandı. 
   Temalar:
   • Koyu Gri (Varsayılan)
   • Siyah-Mavi

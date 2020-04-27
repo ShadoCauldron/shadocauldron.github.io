@@ -1,0 +1,27 @@
+<!doctype html><html lang="tr">
+<head>
+  <meta charset="UTF-8"><link rel="icon" href="https://shadocauldron.github.io/Pinepack.png">
+  <link href="https://shadocauldron.github.io/style.css" rel="stylesheet"/>
+  <title>PADOBASRUB</title>
+</head>
+<body>
+<div class="header">
+  <p>PADOBASRUB</p>
+</div>
+<div class="footer">
+  <p><b>Bağlantılar</b></p><br/>
+  <p>Discord sunucumuz: <a href="https://discord.gg/nCXnWjS">https://discord.gg/nCXnWjS</a></p>
+</div>
+<div class="content">
+  <b><p style="font-size: 36px;">Ekran görüntüleri</p></b><br/>
+  <p>yok</p>
+  <b><p style="font-size: 36px;">Açıklama</p></b><br/>
+  <p>
+  Bu ürün daha yayınlanmadı.
+  </p><br/>
+  <b><p style="font-size: 36px;">İndirme</p></b>
+  <div class="button" onclick="location.replace("");">İndir</div>
+  <br/><br/><br/>
+</div>
+  </body>
+</html>

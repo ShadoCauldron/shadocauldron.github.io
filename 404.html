@@ -1,4 +1,9 @@
 <!doctype html><html lang="tr">
+<script>
+window.onload = function() {
+   document.getElementById("BulunamayanSayfa").innerHTML=window.location.href;
+} 
+</script>
 <head>
   <meta charset="UTF-8"><link rel="icon" href="https://shadocauldron.github.io/ShadoCauldron.png">
   <link href="https://shadocauldron.github.io/style.css" rel="stylesheet"/>
@@ -13,7 +18,7 @@
   <p>Discord sunucumuz: <a href="https://discord.gg/juuVtpn">https://discord.gg/juuVtpn</a></p>
 </div>
 <div class="content">
-  <p>Bu ulaşmaya çalıştığınız sayfanın ismi değişmiş, silinmiş veya hiç var olmamış.<br/>Hata kodu: 404</p><br/>
+  <p id="BulunamayanSayfa"></p><p>adlı sayfa bulunamadı. Ulaşmaya çalıştığınız sayfanın ismi değişmiş, silinmiş veya hiç var olmamış.<br/>Hata kodu: 404</p><br/>
   <div class="button" onclick="location.replace('https://shadocauldron.github.io');">ShadoCauldron Anasayfa</div>
 </div>
 </body>
